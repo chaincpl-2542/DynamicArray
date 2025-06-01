@@ -3,36 +3,34 @@
 
 int main() {
     DynamicArray<int> arr;
-    arr.push_back(10);
-    arr.push_back(20);
-    arr.push_back(30);
 
-    for (size_t i = 0; i < arr.size(); ++i)
+    for (int i = 1; i <= 20; ++i) {
+        arr.push_back(i);
+    }
+
+    std::cout << "Array contents: ";
+    for (size_t i = 0; i < arr.size(); ++i) {
         std::cout << arr[i] << " ";
-    std::cout << "\n";
+    }
+    std::cout << std::endl;
 
-    arr.resize(10, -1);
-    std::cout << "After resize:\n";
-    for (size_t i = 0; i < arr.size(); ++i)
+    std::cout << "Size: " << arr.size() << std::endl;
+    std::cout << "Capacity: " << arr.capacity() << std::endl;
+
+    arr.pop_back();
+    arr.pop_back();
+
+    std::cout << "After popping 2 elements: ";
+    for (size_t i = 0; i < arr.size(); ++i) {
         std::cout << arr[i] << " ";
-    std::cout << "\n";
+    }
+    std::cout << std::endl;
 
-    arr.emplace_back(99);
+    std::cout << "Front: " << arr.front() << ", Back: " << arr.back() << std::endl;
 
-    std::cout << "Range loop:\n";
-    for (int v : arr)
-        std::cout << v << " ";
-    std::cout << "\n";
+    arr.clear();
+    std::cout << "After clear, is empty: " << arr.empty() << std::endl;
+    std::cout << "Capacity after clear (should not shrink): " << arr.capacity() << std::endl;
 
-    arr.insert(arr.begin() + 1, 99);
-
-    arr.erase(arr.begin() + 2);
-
-    arr.erase(arr.begin() + 3, arr.begin() + 6);
-
-    arr.assign(5, 42);
-
-    DynamicArray<int> other;
-    other.assign({ 1, 2, 3, 4, 5 });
-
+    return 0;
 }

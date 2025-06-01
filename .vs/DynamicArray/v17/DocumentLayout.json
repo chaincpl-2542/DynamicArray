@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\DynamicArray\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D70A8F72-E019-40E6-B2C7-2264CE086D56}|DynamicArray.vcxproj|D:\\GitHub\\DynamicArray\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D70A8F72-E019-40E6-B2C7-2264CE086D56}|DynamicArray.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D70A8F72-E019-40E6-B2C7-2264CE086D56}|DynamicArray.vcxproj|D:\\GitHub\\DynamicArray\\DynamicArray.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D70A8F72-E019-40E6-B2C7-2264CE086D56}|DynamicArray.vcxproj|solutionrelative:DynamicArray.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\GitHub\\DynamicArray\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\GitHub\\DynamicArray\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T02:23:01.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DynamicArray.hpp",
+              "DocumentMoniker": "D:\\GitHub\\DynamicArray\\DynamicArray.hpp",
+              "RelativeDocumentMoniker": "DynamicArray.hpp",
+              "ToolTip": "D:\\GitHub\\DynamicArray\\DynamicArray.hpp",
+              "RelativeToolTip": "DynamicArray.hpp",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-01T02:22:36.941Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
